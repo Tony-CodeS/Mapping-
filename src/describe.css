@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#hero{
+    text-align: center;
+    margin-top: 15px;
+ 
+    padding: 30px;
+}
+
+h1{
+    font-weight: bolder;
+}
+
+#btn{
+    margin-top: 10px;
+    background-color: rgb(41, 41, 159);
+    color: white;
+    font-size: 22px;
+
+    text-transform: capitalize;
+    text-align: center;
+}

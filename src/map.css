@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap'); 
+
+
+#tony{
+    /* border: 1px solid; */
+    width: 310px;
+     /* padding: 5px;  */
+    text-align: center;
+    height: 400px;
+    background-color: whitesmoke;
+    /* border-radius: 20px; */
+}
+
+#style{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+img{
+    width: 300px;
+    height: 200px;
+     border-radius: 20px;
+}
+
+p{
+    margin: 0;
+}

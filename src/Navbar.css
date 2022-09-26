@@ -1,12 +1,78 @@
-ul{
+#Navbar{
     display: flex;
-    margin:0;
-    list-style: none;
-    background-color: red;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 20px;
+
+    margin: auto;
+    padding: 20px; 
+
 }
 
-li{
-    display: block;
+#title{
+     padding: 10px;
+    margin: 0; 
+    font-weight: bold;
+    font-size: 30px;
+}
+
+input{
+    transition: .5s;
+    box-sizing: border-box;
+}
+
+#search{
+    height: 50px;
+    width: 300px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+    background-color: rgb(246, 246, 246);
+
+}
+
+#submit{
+    border-radius: 0 25px 25px 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+    background-color: rgb(41, 41, 159);
+}
+
+button{
+    border-radius:25px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: none;
+ 
+}
+
+#select{
+    width: 100px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-right:25px;
+    margin-left: 10px;
+    font-size: 22px;
+    text-transform: uppercase;
+ 
+}
+
+a{
+    color: black;
+    text-decoration: none;
     padding: 10px;
-    margin:20px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+#drop-button{
+    font-size: 22px;
 }

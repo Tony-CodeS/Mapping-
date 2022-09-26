@@ -1,0 +1,36 @@
+#carousel{
+    width: 90%;
+    margin: auto;
+    height: 400px;
+  
+    margin-top: 10px;
+    border-radius: 40px;
+    /* padding: 20px; */
+}
+
+#img1{
+    height: 400px;
+    object-fit: cover;
+    background-image: url(./images/prisons.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+#img2{
+    height: 400px;
+    object-fit: cover;
+    background-image: url(./images/prison-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+#img3{
+    height: 400px;
+    object-fit: cover;
+    background-image: url(./images/jail-1200x1050.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
